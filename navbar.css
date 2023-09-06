@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+    width: 100%;
+    height: 100%;
+
+}
+#navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+}
+#navigation h5:hover{
+    color: #5342ee;
+    transform: scale(1.2);
+}
+#navigation i:hover{
+    color: #fff;
+    transform: scale(1.2);
+}
+#navigation h5{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+}
+#navigation i{
+    color: white;
+}
+
+#panel{
+    display: flex;
+    width: 100%;
+    height: 800px;
+    background-color: black;
+}
+#left{
+    width: 100%;
+    height: 90%;
+    background-image: url(https://images.unsplash.com/photo-1668158873392-5ed5203e7ccc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGlwaG9uZSUyMDE0JTIwcHJvJTIwbWF4fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/* #right{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1563203369-26f2e4a5ccf7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#overlay{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://www.apple.com/in/iphone-14-pro/);
+} */
+/* #over{
+    width: 500px;
+    height: 800px;
+    background-color: black;
+} */
+#left h2{
+    text-align: center;
+    font-size: 4em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+#left h4{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: xx-large;
+}
+
+h5,i{
+    cursor: pointer;
+}
